@@ -1,0 +1,21 @@
+
+
+ | | | |/ _ \| \ | | ____\ \ / /  \/  |  / \  |  _ \ 
+ | |_| | | | |  \| |  _|  \ V /| |\/| | / _ \ | |_) |
+ |  _  | |_| | |\  | |___  | | | |  | |/ ___ \|  __/ 
+ |_| |_|\___/|_| \_|_____| |_| |_|  |_/_/   \_\_|    
+
+
+A GUI to create Network map for Internet Security.
+HoneyMap is a software utility program which provides a simple to use GUI interface to
+construct a computer network map. The map consists of routers, switches, servers, personal
+computers, wireless access points, laptops and firewall devices. Devices in the map are
+connected to each other in some way using line connections which actually represents a
+network connection (LAN / Wireless). These maps are later converted to appropriate
+configuration file for a popular low interaction honeypot call honeyd. That configuration file
+is passed as argument to honeyd which later simulates a complete computer network. One
+can also use HoneyMap to share the network design with other fellow designers using
+popular image format SVG.
+The project started a long time back but couldn't be completed as I and deepsa got busy with other
+stuff. so here is the idea and concept for anyone interested to take it up.
+Also if this is to be carried on, I'd like it to be on Qt, as I have too moved to Qt from Gtk.
